@@ -1,0 +1,7 @@
+main:
+  - title: "GraduationPictures"
+    url: /
+ # - title: "Resume"
+  #  url: https://devinbunch.com/resume/bunch_resume.pdf
+  - title: "Example Coding Projects"
+    url: /projects/
