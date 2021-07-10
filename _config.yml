@@ -15,17 +15,12 @@
 # in the templates via {{ site.myvariable }}.
 title: Devin Bunch
 url: https://devinbunch.com
-## To build the website locally, comment out the previous line and run
-## in terminal: 'bundle ex jekyll serve'. The website will be hosted at
-## 'localhost:4000'.
-
-# repository: grantmcdermott/grantmcdermott.github.io
 github: [metadata]
-email: grantmcd@uoregon.edu
+email: devinespanol@gmail.com
 description: >- # this means to ignore newlines in the text below
-  Grant McDermott's personal website.
-twitter_username: grant_mcdermott
-github_username: grantmcdermott
+  Devin Bunch's personal website.
+twitter_username: Dev_Bunch
+github_username: devinbunch
 minimal_mistakes_skin: "default" #"default" "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
 search: true
 
@@ -34,7 +29,7 @@ markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
+paginate: 3 # amount of posts to show
 paginate_path: /blog/page:num
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
@@ -63,31 +58,24 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Grant McDermott"
-  avatar : "/assets/images/mcdermott400sq-s.jpg"
+  name   : "Devin"
+  avatar : "/assets/images/stairs.jpg"
   bio    : 
     Assistant Prof. at the University of Oregon. 
     Interested in environmental economics & data science.
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://grantmcdermott.com"
+      url: "https://devinbunch.com"
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
-      url: "mailto:grantmcd@uoregon.edu"
+      url: "mailto:devinespanol@gmail.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/grant_mcdermott"
+      url: "https://twitter.com/Dev_Bunch"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/grantmcdermott"
-    - label: "Scholar"
-      icon: "ai ai-google-scholar"
-      url: "http://scholar.google.com/citations?user=EruWDMwAAAAJ"
-    - label: "ORCID"
-      icon: "ai ai-orcid"
-      url: "http://orcid.org/0000-0001-7883-8573"
-      
+      url: "https://github.com/devinbunch"
 footer:
   links:
     - label: "Twitter"
@@ -131,19 +119,3 @@ analytics:
   google:
     tracking_id: "UA-76482472-1"
     anonymize_ip: false # default
-
-# Comments
-# https://mmistakes.github.io/minimal-mistakes/docs/configuration/#disqus
-comments:
-  provider: "disqus"
-  disqus:
-    shortname: "grantmcdermott-blog"
-
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /blog/tag-archive/
-
-exclude: ['*.Rmd']
